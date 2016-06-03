@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html ng-app="eventApp" ng-controller="updateEventController">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Event Management</title>
+    <!-- Bootstrap -->
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+    input {
+      margin-top: 15px;
+      padding-right: 20px;
+
+    }
+
+    .form-control {
+      margin-top: 15px;
+      margin-left: 20px;
+    }
+    </style>
+
+  </head>
+  <body>
+    <nav class="navbar navbar-default">
+      <ul class="nav navbar-nav">
+          <li><a href="index.html"> Home</a></li>
+          <li><a href="#">Feature</a></li>
+          <li><input type="text" ng-model="textFilter"/></li>
+          <li><select class="form-control" ng-model="sortText">
+                <option value="-cost">Cost: high to low</a></option>
+                <option value="cost">Cost: low to high</option>
+                <option value="date">latest</option>
+              </select>
+          </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+          <li> <a href="#"> login </a></li>
+      </ul>
+    </nav>
+
+      <h1 class= "text-center"> Add Events </h1>
+      <div class="row">
+      <div class="col-md-6 col-md-offset-2">
+          <form novalidate name="addEventForm">
+            <fieldset>
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" ng-model="event.name">
+              </div>
+              <div class="form-group">
+                <label for="teacher">Teacher</label>
+                <input type="text" class="form-control" id="teacher" ng-model="event.teacher">
+              </div>
+              <div class="form-group">
+                <label for="address">Address Line 1</label>
+                <input type="text" class="form-control" id="address" ng-model="event.address.address_1">
+              </div>
+              <div class="form-group">
+                <label for="address">City</label>
+                <input type="text" class="form-control" id="address" ng-model="event.address.city">
+              </div>
+              <div class="form-group">
+                <label for="address">State</label>
+                <input type="text" class="form-control" id="address" ng-model="event.address.state">
+              </div>
+              <div class="form-group">
+                <label for="address">Zip</label>
+                <input type="text" class="form-control" id="address" ng-model="event.address.zip">
+              </div>
+              <div class="form-group">
+                <label for="date">Date</label>
+                <input type="text" class="form-control" id="date" ng-model="event.date">
+              </div>
+              <div class="form-group">
+                <label for="image">Image</label>
+                <input type="text" class="form-control" id="image" ng-model="event.image">
+              </div>
+              <div class="form-group">
+                <label for="cost">Cost</label>
+                <input type="text" class="form-control" id="cost" ng-model="event.cost">
+              </div>
+              <button type="submit" class="btn btn-primary" ng-click="addEvent(event)"> Save
+             </button>
+             <button type="submit" ng-click="cancelEdit()" class="btn btn-default">Cancel</button>
+           </fieldset>
+          </form>
+      </div>
+    </div>
+
+
+    <script src="lib/angular/angular.js"></script>
+    <script src="lib/angular/angular-resource.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/services/eventData.js"> </script>
+    <script src="js/controllers/UpdateEventController.js"></script>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"> </script>
+  </body>
+</html>

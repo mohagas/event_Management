@@ -1,0 +1,159 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "name": "Friendship",
+      "teacher": "By Shaykh Abdullahi Farah",
+      "address": {
+        "address_1": "3232 Eden Prairie Rd",
+        "city": "Eden Prairie",
+        "state": "MN",
+        "zip": 55346
+      },
+      "date": "September 1, 2016",
+      "cost": 50,
+      "likes": 46,
+      "image": "http://www.prophetpbuh.com/wp-content/uploads/2014/05/tumblr_n5af5fdjxe1r75xe0o1_1280.jpg",
+      "dislikes": 9
+    },
+    {
+      "id": 2,
+      "name": "Janna and Jahannam",
+      "teacher": "By Shaykh Mohammad Al-Shinawi",
+      "address": {
+        "address_1": "9026 city park",
+        "city": "Brooklyn",
+        "state": "NY",
+        "zip": 12345
+      },
+      "date": "January 10, 2016",
+      "cost": 170,
+      "likes": 34,
+      "image": "http://2.bp.blogspot.com/-G50EKJOk8P4/UF7AJhmwgfI/AAAAAAAATZQ/AGpkQlxXjgA/s1600/Hell+or+Jahannam+and+Paradise+or+Jannah.jpg",
+      "dislikes": 2
+    },
+    {
+      "id": 3,
+      "name": "Fiqh of Divorce ",
+      "teacher": "By Shaykh Mowleed Ali",
+      "address": {
+        "address_1": "9026 city park",
+        "city": "Durham",
+        "state": "NC",
+        "zip": 12345
+      },
+      "date": "October 24, 2016",
+      "cost": 160,
+      "likes": 57,
+      "image": "http://www.islamiclife.com/userfiles/images/2013/ebook_divorce_0001.jpg",
+      "dislikes": 14
+    },
+    {
+      "id": 4,
+      "name": "Islamic Inheritance ",
+      "teacher": "By Shaykh Waleed Al-Maneesi",
+      "address": {
+        "address_1": "8021 Park Ave",
+        "city": "Bloomigton",
+        "state": "MN",
+        "zip": 12345
+      },
+      "date": "May 19, 2016",
+      "cost": 180,
+      "likes": 13,
+      "image": "http://www.islamicsoftware.org/irth/fareedha_tr.jpg",
+      "dislikes": 5
+    },
+    {
+      "id": 5,
+      "name": "Tajweed Rules",
+      "teacher": "By Shaykh Adam Farah",
+      "address": {
+        "address_1": "9026 city park",
+        "city": "Austin",
+        "state": "TX",
+        "zip": 12345
+      },
+      "date": "March 18, 2016",
+      "cost": 95,
+      "likes": 28,
+      "image": "https://illmstreet.files.wordpress.com/2012/05/tajweed.png",
+      "dislikes": 2
+    },
+    {
+      "id": 6,
+      "name": "Islamic Finance",
+      "teacher": "By Shaykh Abdullah Mohamed",
+      "address": {
+        "address_1": "9026 city park",
+        "city": "Sacramento",
+        "state": "CA",
+        "zip": 12345
+      },
+      "date": "July 23, 2016",
+      "cost": 130,
+      "likes": 10,
+      "image": "http://genevasbe.com/wp-content/uploads/2015/07/Islamic-Finance7.jpg",
+      "dislikes": 3
+    },
+    {
+      "name": "Quran",
+      "teacher": "Shaikh Muhsin",
+      "cost": 200,
+      "id": 7,
+      "likes": 5,
+      "dislikes": 7
+    },
+    {
+      "name": "dlkfjadsf",
+      "teacher": "fgdadsa",
+      "cost": 100,
+      "id": 8,
+      "likes": 3,
+      "dislikes": 3
+    },
+    {
+      "name": "Science and Health",
+      "teacher": "John Thomas",
+      "address": "2320 Woodhil Trl",
+      "date": "03/02/2016",
+      "image": "http://christianevidences.org/wp-content/uploads/2013/09/health-1.jpg",
+      "cost": 100,
+      "id": 9,
+      "likes": 2,
+      "dislikes": 2
+    },
+    {
+      "name": "Islamic fiqh",
+      "teacher": "Muhammad",
+      "address": "2320 Woodhil Trl Eden Prairie 55344",
+      "date": "04/06/2015",
+      "image": "http://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Caduceus.svg/256px-Caduceus.svg.png",
+      "cost": 100,
+      "id": 10,
+      "dislikes": 1,
+      "likes": 1
+    },
+    {
+      "address": {
+        "address_1": "2320 Woodhil Trl Eden Prairie 55344"
+      },
+      "id": 11,
+      "dislikes": 2,
+      "likes": 1
+    },
+    {
+      "name": "Muslim in America",
+      "teacher": "Jama Farah",
+      "address": {
+        "address_1": "2321 Capitol Hill Washigton DC 69321"
+      },
+      "date": "02/06/01",
+      "image": "http://www.theimaginativeconservative.org/wp-content/uploads/2015/12/muslimvote_500x279.jpg",
+      "cost": 400,
+      "id": 12,
+      "dislikes": 2,
+      "likes": 2
+    }
+  ]
+}

@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Friendship",
-      "teacher": "By Shaykh Abdullahi Farah",
+      "teacher": "By Abdullahi Farah",
       "address": {
         "address_1": "3232 Eden Prairie Rd",
         "city": "Eden Prairie",
@@ -13,7 +13,7 @@
       "date": "September 1, 2016",
       "cost": 50,
       "likes": 46,
-      "image": "http://www.prophetpbuh.com/wp-content/uploads/2014/05/tumblr_n5af5fdjxe1r75xe0o1_1280.jpg",
+      "image": "",
       "dislikes": 9
     },
     {
